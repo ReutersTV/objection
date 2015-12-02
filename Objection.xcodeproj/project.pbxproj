@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1423FEA1B25B189004A6461 /* Objection.h in Headers */ = {isa = PBXBuildFile; fileRef = C1423FE91B25B189004A6461 /* Objection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1423FF01B25B189004A6461 /* Objection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1423FE51B25B188004A6461 /* Objection.framework */; };
 		C1423FF71B25B189004A6461 /* ObjectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1423FF61B25B189004A6461 /* ObjectionTests.m */; };
 		C1423FFE1B25B195004A6461 /* JSObjectionProviderEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B81F8DC135D06C200221A88 /* JSObjectionProviderEntry.m */; };
@@ -33,6 +32,29 @@
 		C14240121B25B199004A6461 /* JSObjectionProviderEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B81F8CE135D06A300221A88 /* JSObjectionProviderEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C14240131B25B199004A6461 /* JSObjectionRuntimePropertyReflector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53383117AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C14240141B25B199004A6461 /* JSObjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9D310113DF613500C81C45 /* JSObjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92BD1C0F5B4600CDBF01 /* JSObjectionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B496E6A12B0F3E50053F2A3 /* JSObjectionUtils.m */; };
+		DD4F92BE1C0F5B4600CDBF01 /* NSObject+Objection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B53471812F316A4000480AB /* NSObject+Objection.m */; };
+		DD4F92BF1C0F5B4600CDBF01 /* JSObjectFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7875F145647EF00BD705E /* JSObjectFactory.m */; };
+		DD4F92C01C0F5B4600CDBF01 /* JSObjectionInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BED511F12AA8BCC00CA6B36 /* JSObjectionInjector.m */; };
+		DD4F92C11C0F5B4600CDBF01 /* JSObjectionRuntimePropertyReflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B53383217AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m */; };
+		DD4F92C21C0F5B4600CDBF01 /* JSObjectionBindingEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BED512012AA8BCC00CA6B36 /* JSObjectionBindingEntry.m */; };
+		DD4F92C31C0F5B4600CDBF01 /* JSObjectionInjectorEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BED511E12AA8BCC00CA6B36 /* JSObjectionInjectorEntry.m */; };
+		DD4F92C41C0F5B4600CDBF01 /* JSObjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D310213DF613500C81C45 /* JSObjection.m */; };
+		DD4F92C51C0F5B4600CDBF01 /* JSObjectionProviderEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B81F8DC135D06C200221A88 /* JSObjectionProviderEntry.m */; };
+		DD4F92C61C0F5B4600CDBF01 /* JSObjectionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B957EC512ADE03900CBF1EB /* JSObjectionModule.m */; };
+		DD4F92C71C0F5B4600CDBF01 /* JSObjectionEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B21A71342B79E00833077 /* JSObjectionEntry.m */; };
+		DD4F92CA1C0F5B4600CDBF01 /* JSObjectionInjector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BED513012AA8BF300CA6B36 /* JSObjectionInjector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92CB1C0F5B4600CDBF01 /* JSObjectionInjectorEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BED512F12AA8BF300CA6B36 /* JSObjectionInjectorEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92CC1C0F5B4600CDBF01 /* JSObjectionEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4B21A31342B78E00833077 /* JSObjectionEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92CD1C0F5B4600CDBF01 /* JSObjectionModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B957EC212ADDFC500CBF1EB /* JSObjectionModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92CE1C0F5B4600CDBF01 /* JSObjectionRuntimePropertyReflector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53383117AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92D01C0F5B4600CDBF01 /* Objection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B957EE612ADE26500CBF1EB /* Objection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92D11C0F5B4600CDBF01 /* JSObjectFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE7875E145647EF00BD705E /* JSObjectFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92D21C0F5B4600CDBF01 /* JSObjectionBindingEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BED513112AA8BF300CA6B36 /* JSObjectionBindingEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92D31C0F5B4600CDBF01 /* NSObject+Objection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53470E12F3165F000480AB /* NSObject+Objection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92D41C0F5B4600CDBF01 /* JSObjectionProviderEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B81F8CE135D06A300221A88 /* JSObjectionProviderEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92D51C0F5B4600CDBF01 /* JSObjectionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9D30FE13DF5FAC00C81C45 /* JSObjectionUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F92D61C0F5B4600CDBF01 /* JSObjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9D310113DF613500C81C45 /* JSObjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,13 +167,14 @@
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C1423FE51B25B188004A6461 /* Objection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Objection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1423FE81B25B189004A6461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1423FE91B25B189004A6461 /* Objection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Objection.h; sourceTree = "<group>"; };
 		C1423FEF1B25B189004A6461 /* ObjectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1423FF51B25B189004A6461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1423FF61B25B189004A6461 /* ObjectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectionTests.m; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB5192 /* CircularDependencySpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularDependencySpecs.m; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB5195 /* CircularDependencyFixtures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularDependencyFixtures.m; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB5198 /* CircularDependencyFixtures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularDependencyFixtures.h; sourceTree = "<group>"; };
+		DD4F92DB1C0F5B4600CDBF01 /* Objection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Objection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4F92DC1C0F5B4600CDBF01 /* Objection tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Objection tvOS-Info.plist"; path = "/Users/u6033887/dev/objection/Objection tvOS-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +193,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD4F92C81C0F5B4600CDBF01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -178,6 +208,7 @@
 			children = (
 				C1423FE51B25B188004A6461 /* Objection.framework */,
 				C1423FEF1B25B189004A6461 /* ObjectionTests.xctest */,
+				DD4F92DB1C0F5B4600CDBF01 /* Objection.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +224,7 @@
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 				4BED511712AA8B7A00CA6B36 /* Objection-Info.plist */,
+				DD4F92DC1C0F5B4600CDBF01 /* Objection tvOS-Info.plist */,
 			);
 			name = Objection;
 			sourceTree = "<group>";
@@ -353,7 +385,6 @@
 		C1423FE61B25B189004A6461 /* Objection */ = {
 			isa = PBXGroup;
 			children = (
-				C1423FE91B25B189004A6461 /* Objection.h */,
 				C1423FE71B25B189004A6461 /* Supporting Files */,
 			);
 			path = Objection;
@@ -396,7 +427,6 @@
 				C142400B1B25B199004A6461 /* JSObjectionEntry.h in Headers */,
 				C14240101B25B199004A6461 /* JSObjectionModule.h in Headers */,
 				C14240131B25B199004A6461 /* JSObjectionRuntimePropertyReflector.h in Headers */,
-				C1423FEA1B25B189004A6461 /* Objection.h in Headers */,
 				C142400C1B25B199004A6461 /* Objection.h in Headers */,
 				C14240091B25B199004A6461 /* JSObjectFactory.h in Headers */,
 				C142400F1B25B199004A6461 /* JSObjectionBindingEntry.h in Headers */,
@@ -404,6 +434,25 @@
 				C14240121B25B199004A6461 /* JSObjectionProviderEntry.h in Headers */,
 				C142400A1B25B199004A6461 /* JSObjectionUtils.h in Headers */,
 				C14240141B25B199004A6461 /* JSObjection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4F92C91C0F5B4600CDBF01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4F92CA1C0F5B4600CDBF01 /* JSObjectionInjector.h in Headers */,
+				DD4F92CB1C0F5B4600CDBF01 /* JSObjectionInjectorEntry.h in Headers */,
+				DD4F92CC1C0F5B4600CDBF01 /* JSObjectionEntry.h in Headers */,
+				DD4F92CD1C0F5B4600CDBF01 /* JSObjectionModule.h in Headers */,
+				DD4F92CE1C0F5B4600CDBF01 /* JSObjectionRuntimePropertyReflector.h in Headers */,
+				DD4F92D01C0F5B4600CDBF01 /* Objection.h in Headers */,
+				DD4F92D11C0F5B4600CDBF01 /* JSObjectFactory.h in Headers */,
+				DD4F92D21C0F5B4600CDBF01 /* JSObjectionBindingEntry.h in Headers */,
+				DD4F92D31C0F5B4600CDBF01 /* NSObject+Objection.h in Headers */,
+				DD4F92D41C0F5B4600CDBF01 /* JSObjectionProviderEntry.h in Headers */,
+				DD4F92D51C0F5B4600CDBF01 /* JSObjectionUtils.h in Headers */,
+				DD4F92D61C0F5B4600CDBF01 /* JSObjection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,13 +495,31 @@
 			productReference = C1423FEF1B25B189004A6461 /* ObjectionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DD4F92BB1C0F5B4600CDBF01 /* Objection tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4F92D81C0F5B4600CDBF01 /* Build configuration list for PBXNativeTarget "Objection tvOS" */;
+			buildPhases = (
+				DD4F92BC1C0F5B4600CDBF01 /* Sources */,
+				DD4F92C81C0F5B4600CDBF01 /* Frameworks */,
+				DD4F92C91C0F5B4600CDBF01 /* Headers */,
+				DD4F92D71C0F5B4600CDBF01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Objection tvOS";
+			productName = Objection;
+			productReference = DD4F92DB1C0F5B4600CDBF01 /* Objection.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0710;
 				TargetAttributes = {
 					C1423FE41B25B188004A6461 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -486,6 +553,7 @@
 			targets = (
 				C1423FE41B25B188004A6461 /* Objection */,
 				C1423FEE1B25B189004A6461 /* ObjectionTests */,
+				DD4F92BB1C0F5B4600CDBF01 /* Objection tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -543,6 +611,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD4F92D71C0F5B4600CDBF01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -569,6 +644,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1423FF71B25B189004A6461 /* ObjectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4F92BC1C0F5B4600CDBF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4F92BD1C0F5B4600CDBF01 /* JSObjectionUtils.m in Sources */,
+				DD4F92BE1C0F5B4600CDBF01 /* NSObject+Objection.m in Sources */,
+				DD4F92BF1C0F5B4600CDBF01 /* JSObjectFactory.m in Sources */,
+				DD4F92C01C0F5B4600CDBF01 /* JSObjectionInjector.m in Sources */,
+				DD4F92C11C0F5B4600CDBF01 /* JSObjectionRuntimePropertyReflector.m in Sources */,
+				DD4F92C21C0F5B4600CDBF01 /* JSObjectionBindingEntry.m in Sources */,
+				DD4F92C31C0F5B4600CDBF01 /* JSObjectionInjectorEntry.m in Sources */,
+				DD4F92C41C0F5B4600CDBF01 /* JSObjection.m in Sources */,
+				DD4F92C51C0F5B4600CDBF01 /* JSObjectionProviderEntry.m in Sources */,
+				DD4F92C61C0F5B4600CDBF01 /* JSObjectionModule.m in Sources */,
+				DD4F92C71C0F5B4600CDBF01 /* JSObjectionEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +706,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -688,6 +782,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -728,6 +823,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -754,7 +850,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -772,6 +867,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 			};
@@ -794,7 +890,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -806,9 +901,100 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD4F92D91C0F5B4600CDBF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Objection tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Objection;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD4F92DA1C0F5B4600CDBF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Objection tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Objection;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TARGETED_DEVICE_FAMILY = 3;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -831,6 +1017,7 @@
 				C1423FFA1B25B189004A6461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1423FFB1B25B189004A6461 /* Build configuration list for PBXNativeTarget "ObjectionTests" */ = {
 			isa = XCConfigurationList;
@@ -839,6 +1026,16 @@
 				C1423FFD1B25B189004A6461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4F92D81C0F5B4600CDBF01 /* Build configuration list for PBXNativeTarget "Objection tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4F92D91C0F5B4600CDBF01 /* Debug */,
+				DD4F92DA1C0F5B4600CDBF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

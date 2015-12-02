@@ -1,6 +1,7 @@
 #import <Foundation/Foundation.h>
 #import <objc/objc.h>
 #import <objc/runtime.h>
+#import <UIKit/UIKit.h>
 
 #import "JSObjectionModule.h"
 #import "JSObjectionInjector.h"
@@ -50,6 +51,15 @@
         id objs[] = {args}; \
         NSArray *defaultArguments = [NSArray arrayWithObjects: objs count:sizeof(objs)/sizeof(id)]; \
         return JSObjectionUtils.buildInitializer(selectorSymbol, defaultArguments); \
-    }   
+    }
 
 #define objection_initializer(selectorSymbol, args...) objection_initializer_sel(@selector(selectorSymbol), args)
+
+
+//! Project version number for Objection.
+FOUNDATION_EXPORT double ObjectionVersionNumber;
+
+//! Project version string for Objection.
+FOUNDATION_EXPORT const unsigned char ObjectionVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <Objection/PublicHeader.h>

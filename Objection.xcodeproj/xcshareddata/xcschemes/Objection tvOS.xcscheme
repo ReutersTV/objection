@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C1423FE41B25B188004A6461"
+               BlueprintIdentifier = "DD4F92BB1C0F5B4600CDBF01"
                BuildableName = "Objection.framework"
-               BlueprintName = "Objection"
-               ReferencedContainer = "container:Objection.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C1423FEE1B25B189004A6461"
-               BuildableName = "ObjectionTests.xctest"
-               BlueprintName = "ObjectionTests"
+               BlueprintName = "Objection tvOS"
                ReferencedContainer = "container:Objection.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C1423FEE1B25B189004A6461"
-               BuildableName = "ObjectionTests.xctest"
-               BlueprintName = "ObjectionTests"
-               ReferencedContainer = "container:Objection.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C1423FE41B25B188004A6461"
-            BuildableName = "Objection.framework"
-            BlueprintName = "Objection"
-            ReferencedContainer = "container:Objection.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -78,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C1423FE41B25B188004A6461"
+            BlueprintIdentifier = "DD4F92BB1C0F5B4600CDBF01"
             BuildableName = "Objection.framework"
-            BlueprintName = "Objection"
+            BlueprintName = "Objection tvOS"
             ReferencedContainer = "container:Objection.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C1423FE41B25B188004A6461"
+            BlueprintIdentifier = "DD4F92BB1C0F5B4600CDBF01"
             BuildableName = "Objection.framework"
-            BlueprintName = "Objection"
+            BlueprintName = "Objection tvOS"
             ReferencedContainer = "container:Objection.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
